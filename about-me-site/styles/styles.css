@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding:5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #B8BF3F;
+}
+h1, 
+h2{
+    color:#1c481c;
+    text-align: center;
+    font-weight: bolder;
+    text-shadow: 1px black;
+}
+img{
+    width:200px;
+    height: 200px;
+}
+
+#chess-img{
+    position:absolute;
+    left:100px;
+    top:200px;
+}
+#golf-img{
+    position:absolute;
+    right:100px;
+    top: 150px;
+    width: 300px;
+    height:300px;
+}
+#house-img{
+    position:absolute;
+    right:100px;
+    top: 550px;
+    width: 300px;
+    height:300px;
+}
+ul,
+li{
+    text-align: center;
+    list-style-position: inside;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+p{
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+hr{
+    background-color: #C5C5C3;
+    width: 60%;
+    margin: 10px auto;
+    height: 1px;
+    padding:0;
+
+}
+footer{
+    position: fixed;
+    bottom:0px
+}
+
+button{
+    position:absolute;
+    top: 50px;
+    left: 50px;
+}
